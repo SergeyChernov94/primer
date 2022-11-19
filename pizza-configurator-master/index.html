@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row creator-pizza">
+            <div class="col-10">
+                <h2>Конструктор пиццы</h2>
+                <div class="row">
+                    <div class="col-3 creator-pizza-left">
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Ветчина
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Салями
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Бекон
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Шампиньоны
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Курица
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-6 creator-pizza-center">
+                        <div class="current-pizza">
+                            <div class="current-pizza-item testo"></div>
+                            <div class="current-pizza-item osnova"></div>
+                            <div class="current-pizza-item vetchina"></div>
+                            <div class="current-pizza-item kolbasa"></div>
+                            <div class="current-pizza-item bekon"></div>
+                            <div class="current-pizza-item shampinion"></div>
+                            <div class="current-pizza-item chiken"></div>
+                            <div class="current-pizza-item mozzarela"></div>
+                            <div class="current-pizza-item ananas"></div>
+                            <div class="current-pizza-item perec"></div>
+                            <div class="current-pizza-item tomat"></div>
+                            <div class="current-pizza-item olives"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 creator-pizza-right">
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Моцарелла
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Ананас
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Болгарский перец
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Томаты
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="topping-item">
+                            <label class="container-custom-checkbox">Оливки
+                                <input type="checkbox"><span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Блок с подсчётом стоимости -->
+    <div class="container-fluid">
+        <div class="row option-delivery">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="option-delivery-right">
+                    <div class="total-amount"><span class="text">К оплате: </span><span class="summa">395₽.</span></div>
+                    <button class="tupical-btn make-an-order">Сделать заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- //Блок с подсчётом стоимости -->
+<!-- Модальное окно -->
+    <div class="modal-window none">
+        <div class="modal-window__content">
+            <p class="modal-window__subject">
+                <span class="modal-window__ingredients"></span>
+                <span class="modal-window__drinks"></span>
+            </p>
+
+            <button class="modal-window__submit-btn">
+                Заказать
+            </button>
+        </div>
+    </div>
+<!-- //Модальное окно -->
+
+    <script src="script.js"></script>
+</body>
+</html>
